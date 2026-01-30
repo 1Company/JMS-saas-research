@@ -217,18 +217,53 @@
 
 ---
 
-## 🎯 Onze Competitieve Voordelen
+## ⚠️ CORRECTIE: SimplyBook.me Heeft Wél Twee-Weg Sync
 
-### 1. Echte Twee-Weg Google Calendar Sync
-**Geen enkele concurrent biedt dit volledig!**
-- Fresha: Geen sync
-- Salonized: Alleen push naar Google (niet terug)
-- SimplyBook: Alleen via betaalde feature, beperkt
+Na dieper onderzoek blijkt dat **SimplyBook.me WEL twee-weg Google Calendar sync biedt**:
+
+### Wat SimplyBook doet:
+- ✅ Export bookings van SimplyBook → Google Calendar
+- ✅ Block times van Google Calendar → SimplyBook (als event op "busy" staat)
+- ✅ Werkt ook met Outlook
+
+### SimplyBook's Beperkingen:
+- ❌ Kost 1 van je beperkte "custom feature" slots
+- ❌ Sync kan tot 10 minuten duren (niet real-time)
+- ❌ Alleen "blokken" zichtbaar in SimplyBook, geen event details
+- ❌ Werkt NIET met iCloud
+- ❌ Bij meerdere medewerkers: niet zichtbaar in dag/week view
+- ❌ Events moeten handmatig op "busy" staan (niet automatisch)
+
+### Onze Échte Meerwaarde vs SimplyBook:
+| Aspect | SimplyBook | SalonPro |
+|--------|------------|----------|
+| Sync snelheid | Tot 10 min | Real-time (webhooks) |
+| Event details | Alleen blokken | Volledige details |
+| Kost feature slot | Ja | Nee, standaard |
+| Multi-medewerker view | Beperkt | Volledig |
+| Salon-specifiek | Nee (generiek) | Ja |
+
+**Conclusie:** SimplyBook biedt functionele twee-weg sync, maar met significante UX-beperkingen. Onze differentiatie moet liggen in:
+1. **Real-time sync** (niet 10 min delay)
+2. **Betere UX** (volledige event details, niet alleen blokken)
+3. **Salon-specifieke features** (SimplyBook is generiek)
+4. **Simpelere pricing** (geen feature-slot systeem)
+
+---
+
+## 🎯 Herziene Competitieve Voordelen
+
+### 1. ~~Echte Twee-Weg Google Calendar Sync~~ → Betere Calendar Sync UX
+- **Real-time sync** via webhooks (niet 10 min polling)
+- **Volledige event details** zichtbaar (niet alleen blokken)
+- **Automatisch** (geen handmatig "busy" markeren)
+- **Standaard feature** (niet een van beperkte slots)
 
 ### 2. Eerlijke Flat-Rate Pricing
 - Geen per-medewerker kosten na €35/mnd
 - Geen marketplace commissie
 - Geen verborgen kosten
+- Geen feature-slot beperkingen
 
 ### 3. Geen Lock-in
 - Eigen booking widget (geen commissie)
@@ -240,6 +275,94 @@
 - iDEAL betaling
 - GDPR/AVG compliant
 - BTW rapportages
+
+---
+
+## 📊 Fresha Marktdynamiek (Update)
+
+### De Kans: Ontevreden Fresha Gebruikers
+Fresha was tot augustus 2025 "100% gratis". Nu:
+- Verplicht $19.95/mnd (solo) of $14.95/medewerker
+- Reddit reacties tonen frustratie: *"Fresha is going away from being 100% free forever"*
+- Bestaande gebruikers krijgen korting ($15), maar nieuwe niet
+
+**Potentiële doelgroep:** Fresha-gebruikers die:
+- Niet willen betalen voor wat gratis was
+- Gefrustreerd zijn door plotselinge prijswijziging
+- Zoeken naar alternatief met vergelijkbare UX
+
+### Het Risico
+- Fresha heeft **betere UX** dan de meeste concurrenten (4.8/5 rating)
+- Fresha heeft **meer features** (POS, marketing, payroll add-ons)
+- Fresha heeft **marketplace** met miljoenen users
+- $20/mnd is nog steeds goedkoop
+
+**Conclusie:** Ex-Fresha users zijn een kans, maar we moeten realistische verwachtingen hebben. Ze komen niet massaal over voor "iets goedkopers" - we moeten **beter** zijn, niet alleen goedkoper.
+
+---
+
+## ❓ MARKTVALIDATIE - WAT WE NOG NIET WETEN
+
+### Kritieke Vragen Die Beantwoord Moeten Worden
+
+#### 1. Hoeveel salons gebruiken daadwerkelijk Google Calendar naast hun software?
+**Hypothese:** Veel solo-kappers en kleine salons gebruiken Google Calendar voor privé-afspraken.
+**Te valideren via:**
+- [ ] Survey onder 50+ salon eigenaren
+- [ ] Interviews met 10 kappers/schoonheidsspecialisten
+- [ ] Analyse van Reddit/Facebook groepen
+
+#### 2. Is dit probleem €15-55/maand waard?
+**Hypothese:** Dubbele boekingen kosten omzet en reputatie.
+**Te valideren via:**
+- [ ] Vraag: "Hoe vaak heb je dubbele boekingen door calendar issues?"
+- [ ] Vraag: "Hoeveel kost een gemiste afspraak je gemiddeld?"
+- [ ] Bereken: ROI van sync vs. subscription cost
+
+#### 3. Weten salon eigenaren überhaupt dat dit een probleem is?
+**Hypothese:** Sommigen accepteren het als "normaal".
+**Te valideren via:**
+- [ ] Vraag: "Hoe manage je privé en werk afspraken?"
+- [ ] Observeer: Huidige workflow
+- [ ] Test: Reactie op "automatische sync" pitch
+
+#### 4. Waarom gebruiken ze niet gewoon SimplyBook?
+**Mogelijke redenen:**
+- Te generiek (niet salon-specifiek)
+- Feature-slot systeem is verwarrend
+- 10 min sync delay is irritant
+- Weten niet dat het bestaat
+
+### Voorgestelde Validatie Aanpak
+
+#### Fase 1: Quick Validation (1 week)
+1. **Reddit/Facebook survey** in salon groepen
+   - "Gebruik je Google Calendar naast je salon software? Zo ja, waarom?"
+   - "Hoe vaak heb je dubbele boekingen?"
+   
+2. **5-10 mini-interviews** (15 min per gesprek)
+   - Via LinkedIn: Nederlandse kappers/schoonheidsspecialisten
+   - Vraag naar huidige workflow, frustraties, bereidheid te betalen
+
+#### Fase 2: Landing Page Test (2 weken)
+1. Maak simple landing page met value prop
+2. Run €100-200 aan Facebook/Instagram ads
+3. Meet: click-through rate, email sign-ups, waitlist joins
+
+#### Fase 3: Fake Door Test (optioneel)
+1. "Meld je aan voor early access"
+2. Meet conversie van interesse → sign-up
+3. Bel sign-ups om behoeften te valideren
+
+### Go/No-Go Criteria
+| Metric | Go | No-Go |
+|--------|-----|-------|
+| Survey: % dat Google Calendar gebruikt naast software | >40% | <20% |
+| Survey: % met dubbele booking problemen | >30% | <15% |
+| Interviews: "zou ik €35/mnd betalen" | >50% ja | <25% ja |
+| Landing page: email conversion | >5% | <2% |
+
+---
 
 ---
 
