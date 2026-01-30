@@ -52,6 +52,197 @@
 
 ---
 
+## 🔍 Uitgebreide Concurrentieanalyse
+
+### 1. Fresha (voorheen Shedul)
+**Website:** fresha.com | **120.000+ salons wereldwijd**
+
+#### Prijsmodel (2025/2026 - NIEUW!)
+| Plan | Prijs | Details |
+|------|-------|---------|
+| Independent | $19.95/mnd | 1 persoon |
+| Team | $14.95/medewerker/mnd | Meerdere medewerkers |
+| Marketplace Fee | 20% (min $6) | Alleen nieuwe klanten via Fresha marketplace |
+
+**Let op:** Fresha was tot augustus 2025 "100% gratis" maar heeft nu verplichte subscriptions!
+
+#### Add-ons
+- Insights (rapportages): $9.95/medewerker/mnd
+- Team Pay (payroll): $9.95/medewerker/mnd
+- Google Rating Boost: $14.95/locatie/mnd
+
+#### Payment Fees
+- In-person: 2.29% + $0.20
+- Online: 2.79% + $0.20
+
+#### Sterke punten
+- ✅ Zeer gebruiksvriendelijk, mooie UI
+- ✅ Gratis SMS notificaties (met limiet)
+- ✅ Marketplace voor nieuwe klanten
+- ✅ POS hardware beschikbaar
+- ✅ 4.8/5 rating
+
+#### Zwakke punten
+- ❌ **Geen echte twee-weg Google Calendar sync**
+- ❌ Klanten MOETEN Fresha account aanmaken
+- ❌ Beperkte customization (geen eigen branding)
+- ❌ Lock-in: 20% fee op marketplace klanten
+- ❌ Beperkte integraties met externe tools
+
+---
+
+### 2. SimplyBook.me
+**Website:** simplybook.me | **10.000+ klanten**
+
+#### Prijsmodel
+| Plan | Prijs | Boekingen/mnd | Features | Medewerkers |
+|------|-------|---------------|----------|-------------|
+| Free | €0 | 50 | 1 feature | 1 |
+| Basic | €9.90/mnd | 100 | 3 features | 5 |
+| Standard | €29.90/mnd | 500 | 8 features | 15 |
+| Premium | €59.90/mnd | 2000 | Onbeperkt | 30 |
+
+#### Add-ons
+- SMS: €8 per 100 credits
+- WhatsApp: €8 per 100 credits
+- Custom domain: €119 eenmalig
+
+#### Sterke punten
+- ✅ Zeer flexibel feature systeem (77+ opties)
+- ✅ **Google Calendar sync** (via feature)
+- ✅ WhatsApp notificaties
+- ✅ Branded klanten-app mogelijk
+- ✅ HIPAA compliant optie
+- ✅ Multi-taal (17 talen)
+- ✅ API beschikbaar
+
+#### Zwakke punten
+- ❌ Feature-based pricing is verwarrend
+- ❌ Minder salon-specifiek (generiek booking systeem)
+- ❌ UI minder modern dan concurrentie
+- ❌ Steep learning curve
+- ❌ Beperkt aantal boekingen per plan
+
+---
+
+### 3. Treatwell Pro (Connect)
+**Website:** treatwell.nl | **Onderdeel van Treatwell/Salonized**
+
+**Let op:** Treatwell Pro is nu geïntegreerd met Salonized!
+
+#### Prijsmodel
+- Software: €0 (gratis bij Treatwell listing)
+- **Commissie: 35% op nieuwe klanten via Treatwell**
+- Transactiekosten: 2% op vooruitbetalingen
+
+#### Sterke punten
+- ✅ Gratis software
+- ✅ Toegang tot Treatwell marketplace (miljoenen bezoekers)
+- ✅ Geïntegreerd ecosysteem
+
+#### Zwakke punten
+- ❌ **35% commissie is EXTREEM hoog**
+- ❌ Verplicht om op Treatwell te staan
+- ❌ Minder controle over eigen merk
+- ❌ Lock-in effect
+- ❌ Geen twee-weg calendar sync
+
+---
+
+### 4. Planyo
+**Website:** planyo.com | **Generiek booking systeem**
+
+#### Prijsmodel
+| Model | Prijs | Details |
+|-------|-------|---------|
+| PRO | CHF 29/mnd (~€31) | + CHF 2-4 per extra resource |
+| PRO-COMM | 0.5-1.5% commissie | Min CHF 29/mnd |
+
+#### Sterke punten
+- ✅ Zeer flexibel en krachtig
+- ✅ Geen commissie op PRO plan
+- ✅ Multi-currency/multi-taal
+- ✅ Sterke API
+- ✅ Channel management (Booking.com, etc.)
+
+#### Zwakke punten
+- ❌ **Niet salon-specifiek** (te generiek)
+- ❌ Complexe interface
+- ❌ Gedateerde UI/UX
+- ❌ Steile leercurve
+- ❌ Geen marketplace
+
+---
+
+### 5. Square Appointments
+**Website:** squareup.com | **Groot in US**
+
+**Status:** Niet beschikbaar in Nederland!
+
+#### Prijsmodel (US)
+| Plan | Prijs |
+|------|-------|
+| Free | $0 (1 locatie) |
+| Plus | $29/mnd/locatie |
+| Premium | $69/mnd/locatie |
+
+#### Sterke punten
+- ✅ Gratis basis plan
+- ✅ Geïntegreerd met Square POS
+- ✅ Google Calendar sync
+- ✅ Instagram/Google booking
+
+#### Zwakke punten
+- ❌ **NIET BESCHIKBAAR IN NEDERLAND**
+- ❌ Beperkte features in gratis plan
+- ❌ Per-locatie pricing
+
+---
+
+## 📊 Concurrentie Matrix
+
+| Feature | Salonized | Fresha | SimplyBook | Treatwell | Planyo | **SalonPro** |
+|---------|-----------|--------|------------|-----------|--------|--------------|
+| **Twee-weg Google Sync** | ❌ | ❌ | ⚠️ Deels | ❌ | ⚠️ | ✅ |
+| **Prijs solo** | €21 | $20 | €9.90 | €0* | €31 | **€15** |
+| **Prijs 5 mdw** | €59 | $75 | €29.90 | €0* | €45 | **€35** |
+| **Prijs 10 mdw** | €96.50 | $150 | €59.90 | €0* | €65 | **€55** |
+| **Marketplace commissie** | 35% | 20% | ❌ | 35% | ❌ | **❌** |
+| **SMS gratis** | ❌ | ✅ | ❌ | ❌ | ❌ | ⚠️ Push |
+| **NL Support** | ✅ | ❌ | ⚠️ | ✅ | ❌ | ✅ |
+| **Eigen branding** | ⚠️ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| **No lock-in** | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ |
+
+*Treatwell: €0 software maar 35% commissie op nieuwe klanten
+
+---
+
+## 🎯 Onze Competitieve Voordelen
+
+### 1. Echte Twee-Weg Google Calendar Sync
+**Geen enkele concurrent biedt dit volledig!**
+- Fresha: Geen sync
+- Salonized: Alleen push naar Google (niet terug)
+- SimplyBook: Alleen via betaalde feature, beperkt
+
+### 2. Eerlijke Flat-Rate Pricing
+- Geen per-medewerker kosten na €35/mnd
+- Geen marketplace commissie
+- Geen verborgen kosten
+
+### 3. Geen Lock-in
+- Eigen booking widget (geen commissie)
+- Data export altijd mogelijk
+- Geen verplichte marketplace
+
+### 4. Nederlandse Focus
+- Support in het Nederlands
+- iDEAL betaling
+- GDPR/AVG compliant
+- BTW rapportages
+
+---
+
 ## 🚀 SalonPro - Het Betere Alternatief
 
 ### Kernbelofte
