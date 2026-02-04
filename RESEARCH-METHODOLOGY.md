@@ -12,6 +12,8 @@
 - Onderzoek "boring" industrieën die achterlopen qua digitalisering (bijv. logistiek, agri, bouw, compliance)
 - Bekijk buitenlandse markten voor succesvolle SaaS die nog niet in NL/EU bestaat
 - Analyseer mislukte startups - waarom faalden ze, is de markt nu rijp?
+- **Zoek naar "Excel-vervangers":** Als een branche een kritiek proces draait op spreadsheets, is er een SaaS-kans
+- **Cross-pollination:** Combineer twee bestaande ideeën uit ons portfolio tot iets nieuws (bijv. HorecaMaster + data = menu engineering)
 
 ### Fase 2: Concurrentieanalyse
 Per gevonden niche, documenteer:
@@ -68,6 +70,8 @@ Prioriteer ideeën die:
 - ✅ Binnen 3-6 maanden een MVP kunnen hebben
 - ✅ Een duidelijke eerste klant/niche hebben
 - ✅ Ons onderscheiden van bestaande oplossingen
+- ✅ Synergie hebben met bestaand portfolio (HorecaMaster, EventShare, GoldenDeal, etc.)
+- ✅ Kunnen starten als module/add-on voordat het standalone wordt
 
 ---
 
