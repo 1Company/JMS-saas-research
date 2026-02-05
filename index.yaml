@@ -1,0 +1,482 @@
+# JMS SaaS Research Index
+# Gestructureerde data voor alle SaaS producten in het JMS portfolio
+# Laatste update: 2026-02-05
+
+products:
+  - slug: eventshare
+    name: EventShare
+    tagline: "Event foto's delen in real-time"
+    description: "Platform waarmee eventbezoekers foto's delen via QR-code. Organisatoren krijgen alle foto's gecentraliseerd."
+    status: LAUNCHED
+    source_file: products/eventshare.md
+
+    blue_ocean:
+      new_market_space: 7
+      make_competition_irrelevant: 6
+      create_new_demand: 7
+      break_value_cost_tradeoff: 8
+      align_system: 7
+      build_execution_barriers: 5
+      total: 6.7
+
+    market_size:
+      tam_cents: 50000000000   # €500M - Global event tech market
+      sam_cents: 2500000000    # €25M - NL/BE event photo sharing
+      som_cents: 500000000     # €5M - Haalbaar in 3 jaar
+
+    revenue_projections:
+      year_1_cents: 12000000   # €120K
+      year_2_cents: 48000000   # €480K
+      year_3_cents: 120000000  # €1.2M
+
+    build_estimate:
+      weeks: 8
+      cost_cents: 2400000      # €24K
+
+    pricing:
+      model: "per-event"
+      tiers:
+        - name: Starter
+          price: "€49/event"
+        - name: Pro
+          price: "€99/event"
+        - name: Enterprise
+          price: "Op maat"
+
+    tech_stack:
+      - Next.js
+      - Supabase
+      - React
+      - Tailwind CSS
+      - Vercel
+
+    competitors:
+      - name: WedShoots
+        website: https://wedshoots.com
+        pricing: "Gratis + premium"
+        strengths: ["Branding", "Grote userbase bruiloften"]
+        weaknesses: ["Alleen bruiloften", "Verouderd design"]
+        threat_level: MEDIUM
+
+      - name: Eventzee
+        website: https://eventzee.com
+        pricing: "$99-499/event"
+        strengths: ["Gamification", "Scavenger hunts"]
+        weaknesses: ["Complex setup", "Duur"]
+        threat_level: LOW
+
+      - name: Snapbar
+        website: https://snapbar.com
+        pricing: "$200+/event"
+        strengths: ["Photo booths integratie", "Enterprise features"]
+        weaknesses: ["Hoge prijs", "Geen self-service"]
+        threat_level: LOW
+
+  - slug: answerthis
+    name: AnswerThis
+    tagline: "Real-time Q&A voor professionele events"
+    description: "Interactief Q&A platform voor seminars, conferenties en webinars. Bezoekers stellen vragen, moderators cureren, sprekers beantwoorden."
+    status: LAUNCHED
+    source_file: products/answerthis.md
+
+    blue_ocean:
+      new_market_space: 6
+      make_competition_irrelevant: 5
+      create_new_demand: 6
+      break_value_cost_tradeoff: 8
+      align_system: 7
+      build_execution_barriers: 4
+      total: 6.0
+
+    market_size:
+      tam_cents: 100000000000  # €1B - Global audience engagement market
+      sam_cents: 5000000000    # €50M - NL/BE/DACH event Q&A
+      som_cents: 300000000     # €3M - Haalbaar in 3 jaar
+
+    revenue_projections:
+      year_1_cents: 6000000    # €60K
+      year_2_cents: 24000000   # €240K
+      year_3_cents: 72000000   # €720K
+
+    build_estimate:
+      weeks: 6
+      cost_cents: 1800000      # €18K
+
+    pricing:
+      model: "subscription"
+      tiers:
+        - name: Free
+          price: "€0/maand"
+          limits: "1 event/maand, 50 bezoekers"
+        - name: Pro
+          price: "€49/maand"
+          limits: "Onbeperkt events, 500 bezoekers"
+        - name: Enterprise
+          price: "Op maat"
+          limits: "Custom, SLA, white-label"
+
+    tech_stack:
+      - React 18
+      - Supabase
+      - PostgreSQL
+      - TypeScript
+      - Tailwind CSS
+
+    competitors:
+      - name: Slido
+        website: https://slido.com
+        pricing: "Gratis - €100/maand"
+        strengths: ["Cisco backing", "Polls + Q&A", "Enterprise features"]
+        weaknesses: ["Duur voor kleine events", "Complexe interface"]
+        threat_level: HIGH
+
+      - name: Mentimeter
+        website: https://mentimeter.com
+        pricing: "Gratis - €25/maand"
+        strengths: ["Word clouds", "Interactieve presentaties", "Groot merk"]
+        weaknesses: ["Niet specifiek Q&A", "Beperkte moderatie"]
+        threat_level: HIGH
+
+      - name: Pigeonhole Live
+        website: https://pigeonholelive.com
+        pricing: "$8-150/maand"
+        strengths: ["Hybrid events", "Analytics"]
+        weaknesses: ["Klein merk", "Minder gebruiksvriendelijk"]
+        threat_level: MEDIUM
+
+  - slug: horecamaster
+    name: HorecaMaster
+    tagline: "Alles-in-een restaurant management"
+    description: "Complete management suite voor restaurants: reserveringen, menu management, tafel-layout, bestellingen en analytics."
+    status: IN_DEVELOPMENT
+    source_file: products/horecamaster.md
+
+    blue_ocean:
+      new_market_space: 5
+      make_competition_irrelevant: 4
+      create_new_demand: 5
+      break_value_cost_tradeoff: 7
+      align_system: 6
+      build_execution_barriers: 5
+      total: 5.3
+
+    market_size:
+      tam_cents: 300000000000  # €3B - Global restaurant tech
+      sam_cents: 10000000000   # €100M - NL horeca software
+      som_cents: 200000000     # €2M - Haalbaar in 3 jaar
+
+    revenue_projections:
+      year_1_cents: 3600000    # €36K
+      year_2_cents: 18000000   # €180K
+      year_3_cents: 60000000   # €600K
+
+    build_estimate:
+      weeks: 16
+      cost_cents: 4800000      # €48K
+
+    pricing:
+      model: "subscription"
+      tiers:
+        - name: Starter
+          price: "€39/maand"
+        - name: Pro
+          price: "€79/maand"
+        - name: Multi-locatie
+          price: "€149/maand"
+
+    tech_stack:
+      - Next.js
+      - PostgreSQL
+      - Prisma
+      - React
+      - Tailwind CSS
+
+    competitors:
+      - name: Lightspeed Restaurant
+        website: https://lightspeedhq.nl
+        pricing: "€69-199/maand"
+        strengths: ["Complete POS", "Hardware integratie", "Groot merk"]
+        weaknesses: ["Duur", "Lock-in", "Complex"]
+        threat_level: HIGH
+
+      - name: Untill
+        website: https://untill.com
+        pricing: "Op aanvraag"
+        strengths: ["NL marktleider", "Uitgebreid", "Integraties"]
+        weaknesses: ["Legacy tech", "Dure implementatie"]
+        threat_level: HIGH
+
+      - name: Formitable
+        website: https://formitable.com
+        pricing: "€79-249/maand"
+        strengths: ["Reserveringen focus", "Mooi design"]
+        weaknesses: ["Niet compleet", "Duur"]
+        threat_level: MEDIUM
+
+  - slug: goldendeal
+    name: GoldenDeal
+    tagline: "Lokale deals & vouchers platform"
+    description: "Marketplace voor lokale bedrijven om deals en vouchers aan te bieden. Consumenten ontdekken aanbiedingen in hun regio."
+    status: IDEA
+    source_file: products/goldendeal.md
+
+    blue_ocean:
+      new_market_space: 6
+      make_competition_irrelevant: 5
+      create_new_demand: 7
+      break_value_cost_tradeoff: 6
+      align_system: 5
+      build_execution_barriers: 4
+      total: 5.5
+
+    market_size:
+      tam_cents: 200000000000  # €2B - European local deals market
+      sam_cents: 8000000000    # €80M - NL/BE lokale deals
+      som_cents: 150000000     # €1.5M - Haalbaar in 3 jaar
+
+    revenue_projections:
+      year_1_cents: 2400000    # €24K
+      year_2_cents: 12000000   # €120K
+      year_3_cents: 48000000   # €480K
+
+    build_estimate:
+      weeks: 12
+      cost_cents: 3600000      # €36K
+
+    pricing:
+      model: "commission"
+      tiers:
+        - name: Basis
+          price: "10% commissie"
+        - name: Premium
+          price: "7% + €29/maand"
+        - name: Enterprise
+          price: "5% + €99/maand"
+
+    tech_stack:
+      - Next.js
+      - PostgreSQL
+      - Stripe Connect
+      - React
+      - Tailwind CSS
+
+    competitors:
+      - name: Groupon
+        website: https://groupon.nl
+        pricing: "50% commissie"
+        strengths: ["Naamsbekendheid", "Grote userbase"]
+        weaknesses: ["Race naar beneden", "Slechte reputatie bij bedrijven"]
+        threat_level: MEDIUM
+
+      - name: Social Deal
+        website: https://socialdeal.nl
+        pricing: "30-40% commissie"
+        strengths: ["NL marktleider", "Grote userbase", "App"]
+        weaknesses: ["Hoge commissies", "Geen white-label"]
+        threat_level: HIGH
+
+      - name: Pepper.com
+        website: https://pepper.com
+        pricing: "Gratis (affiliate)"
+        strengths: ["Community driven", "Internationaal"]
+        weaknesses: ["Geen directe boekingen", "Geen B2B focus"]
+        threat_level: LOW
+
+  - slug: marketscout
+    name: MarketScout
+    tagline: "AI-powered marktonderzoek & lead generation"
+    description: "SaaS platform voor marktanalyse, concurrentiemonitoring, lead generation en outreach campagnes. Powered by AI."
+    status: IN_DEVELOPMENT
+    source_file: products/marketscout.md
+
+    blue_ocean:
+      new_market_space: 8
+      make_competition_irrelevant: 7
+      create_new_demand: 8
+      break_value_cost_tradeoff: 9
+      align_system: 8
+      build_execution_barriers: 7
+      total: 7.8
+
+    market_size:
+      tam_cents: 500000000000  # €5B - Global market intelligence
+      sam_cents: 20000000000   # €200M - EU SMB market intelligence
+      som_cents: 1000000000    # €10M - Haalbaar in 3 jaar
+
+    revenue_projections:
+      year_1_cents: 18000000   # €180K
+      year_2_cents: 72000000   # €720K
+      year_3_cents: 240000000  # €2.4M
+
+    build_estimate:
+      weeks: 20
+      cost_cents: 6000000      # €60K
+
+    pricing:
+      model: "subscription"
+      tiers:
+        - name: Free
+          price: "€0/maand"
+          limits: "100 credits"
+        - name: Starter
+          price: "€49/maand"
+        - name: Pro
+          price: "€149/maand"
+        - name: Enterprise
+          price: "Op maat"
+
+    tech_stack:
+      - Next.js 16
+      - PostgreSQL
+      - Prisma
+      - Anthropic Claude API
+      - OpenAI
+      - Brave Search API
+      - Stripe
+      - Recharts
+      - TanStack Table
+
+    competitors:
+      - name: Semrush
+        website: https://semrush.com
+        pricing: "$130-500/maand"
+        strengths: ["Complete SEO suite", "Groot merk", "Data depth"]
+        weaknesses: ["Extreem duur", "Overweldigend voor MKB"]
+        threat_level: LOW
+
+      - name: Apollo.io
+        website: https://apollo.io
+        pricing: "$49-119/maand"
+        strengths: ["Enorme database", "Email sequences", "Chrome extension"]
+        weaknesses: ["US-focused", "Privacy zorgen EU"]
+        threat_level: MEDIUM
+
+      - name: Instantly.ai
+        website: https://instantly.ai
+        pricing: "$30-78/maand"
+        strengths: ["Email warmup", "Goedkoop", "Schaalbaar"]
+        weaknesses: ["Alleen email", "Geen marktanalyse"]
+        threat_level: LOW
+
+  - slug: saas-video-generator
+    name: SaaS Video Generator
+    tagline: "AI-powered marketing video's in minuten"
+    description: "Genereer professionele SaaS marketing video's met AI. Van product demo tot explainer video, volledig geautomatiseerd."
+    status: RESEARCH
+    source_file: products/saas-video-generator.md
+
+    blue_ocean:
+      new_market_space: 8
+      make_competition_irrelevant: 6
+      create_new_demand: 9
+      break_value_cost_tradeoff: 8
+      align_system: 6
+      build_execution_barriers: 6
+      total: 7.2
+
+    market_size:
+      tam_cents: 800000000000  # €8B - Global video creation market
+      sam_cents: 15000000000   # €150M - EU SaaS video tools
+      som_cents: 400000000     # €4M - Haalbaar in 3 jaar
+
+    revenue_projections:
+      year_1_cents: 6000000    # €60K
+      year_2_cents: 30000000   # €300K
+      year_3_cents: 96000000   # €960K
+
+    build_estimate:
+      weeks: 14
+      cost_cents: 4200000      # €42K
+
+    pricing:
+      model: "credits"
+      tiers:
+        - name: Free
+          price: "€0/maand"
+          limits: "3 video's/maand"
+        - name: Creator
+          price: "€29/maand"
+          limits: "20 video's/maand"
+        - name: Business
+          price: "€79/maand"
+          limits: "Onbeperkt"
+
+    tech_stack:
+      - Next.js
+      - FFmpeg
+      - AI Video APIs
+      - React
+      - Tailwind CSS
+      - Stripe
+
+    competitors:
+      - name: Synthesia
+        website: https://synthesia.io
+        pricing: "$22-67/maand"
+        strengths: ["AI avatars", "Groot merk", "Enterprise ready"]
+        weaknesses: ["Niet SaaS-specifiek", "Beperkte customization"]
+        threat_level: MEDIUM
+
+      - name: Lumen5
+        website: https://lumen5.com
+        pricing: "$29-199/maand"
+        strengths: ["Blog-to-video", "Templates"]
+        weaknesses: ["Generiek", "Beperkte AI"]
+        threat_level: MEDIUM
+
+      - name: Pictory
+        website: https://pictory.ai
+        pricing: "$23-49/maand"
+        strengths: ["Script-to-video", "Goedkoop"]
+        weaknesses: ["Kwaliteit wisselend", "Beperkte integraties"]
+        threat_level: LOW
+
+# Rankings (sorted by score, highest first)
+rankings:
+  by_blue_ocean_total:
+    - { slug: marketscout, score: 7.8 }
+    - { slug: saas-video-generator, score: 7.2 }
+    - { slug: eventshare, score: 6.7 }
+    - { slug: answerthis, score: 6.0 }
+    - { slug: goldendeal, score: 5.5 }
+    - { slug: horecamaster, score: 5.3 }
+
+  by_tam:
+    - { slug: saas-video-generator, tam_eur: "€8B" }
+    - { slug: marketscout, tam_eur: "€5B" }
+    - { slug: horecamaster, tam_eur: "€3B" }
+    - { slug: goldendeal, tam_eur: "€2B" }
+    - { slug: answerthis, tam_eur: "€1B" }
+    - { slug: eventshare, tam_eur: "€500M" }
+
+  by_som:
+    - { slug: marketscout, som_eur: "€10M" }
+    - { slug: eventshare, som_eur: "€5M" }
+    - { slug: saas-video-generator, som_eur: "€4M" }
+    - { slug: answerthis, som_eur: "€3M" }
+    - { slug: horecamaster, som_eur: "€2M" }
+    - { slug: goldendeal, som_eur: "€1.5M" }
+
+  by_year3_revenue:
+    - { slug: marketscout, revenue_eur: "€2.4M" }
+    - { slug: eventshare, revenue_eur: "€1.2M" }
+    - { slug: saas-video-generator, revenue_eur: "€960K" }
+    - { slug: answerthis, revenue_eur: "€720K" }
+    - { slug: horecamaster, revenue_eur: "€600K" }
+    - { slug: goldendeal, revenue_eur: "€480K" }
+
+  by_roi: # (year 3 revenue / build cost)
+    - { slug: eventshare, roi: 50.0 }
+    - { slug: answerthis, roi: 40.0 }
+    - { slug: marketscout, roi: 40.0 }
+    - { slug: saas-video-generator, roi: 22.9 }
+    - { slug: goldendeal, roi: 13.3 }
+    - { slug: horecamaster, roi: 12.5 }
+
+  by_build_speed: # weeks
+    - { slug: answerthis, weeks: 6 }
+    - { slug: eventshare, weeks: 8 }
+    - { slug: goldendeal, weeks: 12 }
+    - { slug: saas-video-generator, weeks: 14 }
+    - { slug: horecamaster, weeks: 16 }
+    - { slug: marketscout, weeks: 20 }
