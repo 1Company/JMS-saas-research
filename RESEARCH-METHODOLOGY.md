@@ -14,6 +14,8 @@
 - Analyseer mislukte startups - waarom faalden ze, is de markt nu rijp?
 - **Zoek naar "Excel-vervangers":** Als een branche een kritiek proces draait op spreadsheets, is er een SaaS-kans
 - **Cross-pollination:** Combineer twee bestaande ideeën uit ons portfolio tot iets nieuws (bijv. HorecaMaster + data = menu engineering)
+- **Regulatie-gedreven kansen:** Monitor nieuwe of strengere wetgeving (EU, NL) — compliance-tools zijn "must-have" en verkopen zichzelf
+- **"WhatsApp-first" toets:** Als het probleem nu via WhatsApp/telefoon opgelost wordt, is er een SaaS-kans
 
 ### Fase 2: Concurrentieanalyse
 Per gevonden niche, documenteer:
@@ -72,6 +74,8 @@ Prioriteer ideeën die:
 - ✅ Ons onderscheiden van bestaande oplossingen
 - ✅ Synergie hebben met bestaand portfolio (HorecaMaster, EventShare, GoldenDeal, etc.)
 - ✅ Kunnen starten als module/add-on voordat het standalone wordt
+- ✅ Een "must-have" zijn (wetgeving, direct kostenbesparing) boven "nice-to-have"
+- ✅ Een duidelijke ROI-pitch hebben ("betaal X, bespaar 5X")
 
 ---
 
