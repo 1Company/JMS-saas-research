@@ -16,6 +16,8 @@
 - **Cross-pollination:** Combineer twee bestaande ideeën uit ons portfolio tot iets nieuws (bijv. HorecaMaster + data = menu engineering)
 - **Regulatie-gedreven kansen:** Monitor nieuwe of strengere wetgeving (EU, NL) — compliance-tools zijn "must-have" en verkopen zichzelf
 - **"WhatsApp-first" toets:** Als het probleem nu via WhatsApp/telefoon opgelost wordt, is er een SaaS-kans
+- **"US-first" scan:** Check of er succesvolle US/UK tools zijn die nog niet in NL/EU bestaan — bewezen PMF, lokalisatie-kans
+- **Fiscale triggers:** Monitor Belastingdienst kennisgroep-standpunten — nieuwe compliance-eisen creëren "must-have" markten
 
 ### Fase 2: Concurrentieanalyse
 Per gevonden niche, documenteer:
