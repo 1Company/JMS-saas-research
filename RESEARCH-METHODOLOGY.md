@@ -18,6 +18,8 @@
 - **"WhatsApp-first" toets:** Als het probleem nu via WhatsApp/telefoon opgelost wordt, is er een SaaS-kans
 - **"US-first" scan:** Check of er succesvolle US/UK tools zijn die nog niet in NL/EU bestaan — bewezen PMF, lokalisatie-kans
 - **Fiscale triggers:** Monitor Belastingdienst kennisgroep-standpunten — nieuwe compliance-eisen creëren "must-have" markten
+- **Tool consolidation:** Zoek naar markten met "tool overload" — ondernemers willen minder apps, niet meer. Unified solutions winnen.
+- **AI burnout check:** Als een sector overspoeld wordt met AI tools, is er kans voor een "one interface" solution die alles combineert
 
 ### Fase 2: Concurrentieanalyse
 Per gevonden niche, documenteer:
